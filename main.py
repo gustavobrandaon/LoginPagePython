@@ -1,3 +1,11 @@
+from telaPrincipal import *
+from telaLogin import *
+
+App()
+
+
+
+"""
 # Imports
 import PySimpleGUI as sg
 
@@ -19,7 +27,7 @@ layout = [
     [sg.Text('Password')],
     [sg.Input(key = '-PASSWORD-', password_char='*')],
     [
-        sg.Button('Login'), sg.Button('Create Account')
+        sg.Button('Login'), sg.Button('Create Account') 
     ]
 ]
 
@@ -39,3 +47,4 @@ while True:
         else:
             sg.popup("Invalid username or password!")
 window.close()
+"""
